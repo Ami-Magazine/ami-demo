@@ -32,7 +32,7 @@ export default function Contact() {
   return (
     <>
       <NextHead
-        title="Contact Chayenu"
+        title="Contact Ami"
         description="Get answers to frequently asked questions about our products and services. Find solutions to common queries and make informed decisions. Explore now!"
       />
       <div className={Styles.contact}>

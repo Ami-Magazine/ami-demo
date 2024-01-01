@@ -2,7 +2,7 @@ import Styles from './productcard.module.scss';
 import { directusUrl } from '/api/config';
 
 export function ProductCard({ product, selected, selectedProduct }) {
-  const notSelectedStyles = { backgroundColor: '#F1F7FC' };
+  const notSelectedStyles = { backgroundColor: 'rgb(233, 145, 62, 0.2)' };
 
   return (
     <div

@@ -157,7 +157,7 @@ export function Header() {
           </div>
           <div>
             <Link href="/" aria-label="Homepage">
-              <Logo />
+              <Image src="/logoAMIMAG.jpg" alt="logo" width={60} height={30} />
             </Link>
           </div>
         </div>
@@ -170,7 +170,12 @@ export function Header() {
           <div className={Styles.headerContainer} ref={menu}>
             <div onClick={handleMenu} className={Styles.logo}>
               <Link href="/" aria-label="Homepage">
-                <Logo />
+                <Image
+                  src="/logoAMIMAG.jpg"
+                  alt="logo"
+                  width={60}
+                  height={30}
+                />
               </Link>
             </div>
             <div>

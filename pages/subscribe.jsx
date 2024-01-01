@@ -139,7 +139,7 @@ export default function Subscribe({ query }) {
   return (
     <>
       <NextHead
-        title="Chayenu | Subscribe"
+        title="Ami | Subscribe"
         description="Subscribe to Chayenu, Chayenu is delivered in print or digital formats."
       />
       {!error && (

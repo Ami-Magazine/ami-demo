@@ -39,7 +39,7 @@ export default function Transactions() {
     <>
       {error && <PageLoadFailed error={error} />}
       <section className={Styles.page}>
-        <NextHead title="Chayenu | Portal | Transactions" />
+        <NextHead title="Ami | Portal | Transactions" />
         {!error && loading
           ? Array.apply(0, Array(3)).map(function (_, i) {
               return (

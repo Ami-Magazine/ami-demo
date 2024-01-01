@@ -139,7 +139,7 @@ export default function Support() {
       {error && <PageLoadFailed error={error} />}
       {!error && (
         <>
-          <NextHead title="Chayenu | Portal | Support" />
+          <NextHead title="Ami | Portal | Support" />
           <Formik
             initialValues={initialValues}
             initialErrors={initialErrors}

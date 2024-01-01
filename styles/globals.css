@@ -10,10 +10,10 @@ body {
   scroll-behavior: smooth;
 }
 :root {
-  --website-color: #75b2e6;
+  --website-color: rgb(233, 145, 62);
   --website-color-light: #d8eafa;
   --blue-gray: #e3f0fa;
-  --website-color-opacity-low: rgb(117, 178, 230, 0.2);
+  --website-color-opacity-low: rgb(233, 145, 62, 0.2);
   --website-color-banner: rgb(117, 178, 230, 0.7);
   --color-secondary-header: #5d8cb5;
   --container-width-75: min(75rem, 75vw);

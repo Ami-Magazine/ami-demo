@@ -42,7 +42,7 @@ export default function MySubcriptions() {
       {error && <PageLoadFailed error={error} />}
       {!error && (
         <section>
-          <NextHead title="Chayenu | Portal | Subcsriptions" />
+          <NextHead title="Ami | Portal | Subcsriptions" />
           <div className={Styles.subscriptionCard}>
             {loading
               ? Array.apply(0, Array(3)).map(function (_, i) {

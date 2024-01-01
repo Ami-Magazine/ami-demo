@@ -12,7 +12,7 @@ export default function Trial({ products }) {
   return (
     <main>
       <NextHead
-        title="Chayenu 1 Month Trial | Chayenu"
+        title="Chayenu 1 Month Trial | Ami"
         description="Experience the transformative power of Chayenu with our exclusive trial. Dive into a wealth of Jewish wisdom, engaging articles, and inspiring Torah content. Start your journey today and discover why Chayenu is the ultimate companion for spiritual growth. Sign up for our trial and unlock a world of meaningful learning."
       />
 
@@ -22,7 +22,6 @@ export default function Trial({ products }) {
         <Testimonials />
         <Subscribe product={product} />
       </section>
-
     </main>
   );
 }

@@ -47,7 +47,7 @@ export default function Profile() {
           <ProfileSkeleton />
         ) : (
           <section className={Styles.profileCard}>
-            <NextHead title="Chayenu | Portal | Profile" />
+            <NextHead title="Ami | Portal | Profile" />
             <div className={Styles.userDetailsAndEdit}>
               <div className={Styles.userDetails}>
                 <div>Name:</div>

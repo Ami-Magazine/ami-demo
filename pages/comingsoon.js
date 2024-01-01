@@ -6,10 +6,11 @@ export default function Comingsoon() {
   const router = useRouter();
   return (
     <div className={Styles.page}>
-      <NextHead title="Chayenu | Coming Soon" />
+      <NextHead title="Ami | Coming Soon" />
       <h1 className={Styles.text}>
         This page will be coming soon.
-        <span className={Styles.link}
+        <span
+          className={Styles.link}
           onClick={() => {
             router.back();
           }}

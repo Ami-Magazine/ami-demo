@@ -38,8 +38,8 @@ export default function Explore() {
   return (
     <>
       <NextHead
-        title="Chayenu | Explore"
-        describe="Explore Chayenu Learn about each section of Chayenu below or subscribe now.Chayenu is your daily Torah study delivered every two weeks in print or digital"
+        title="Ami | Explore"
+        describe="Explore Ami Learn about each section of Ami below or subscribe now.Ami is your daily Torah study delivered every two weeks in print or digital"
       />
       {!error && (
         <>
@@ -47,9 +47,9 @@ export default function Explore() {
           <main className={Styles.main}>
             <section>
               <div className={Styles.introWrapper}>
-                <h1 className={Styles.title}>Explore Chayenu</h1>
+                <h1 className={Styles.title}>Explore Ami</h1>
                 <p className={Styles.introParagraph}>
-                  Learn about each section of Chayenu below or{" "}
+                  Learn about each section of Ami below or{' '}
                   <Link
                     className={Styles.introParagraphLinks}
                     href="/subscribe"
@@ -67,7 +67,7 @@ export default function Explore() {
                     href="/subscribe"
                   >
                     Click here
-                  </Link>{" "}
+                  </Link>{' '}
                   to go to the library of books used in the Chayenu weekly
                   Magazine
                 </p>

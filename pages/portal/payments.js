@@ -42,7 +42,7 @@ export default function Payments() {
       {error && <PageLoadFailed error={error} />}
       {!error && (
         <section className={Styles.page}>
-          <NextHead title="Chayenu | Portal | Payments" />
+          <NextHead title="Ami | Portal | Payments" />
           <div className={Styles.cardList}>
             {loading
               ? Array.apply(0, Array(3)).map(function (_, i) {

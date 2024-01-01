@@ -55,7 +55,7 @@
       grid-template-columns: 1fr !important;
       margin-bottom: 15px;
     }
-    background-color: #75b2e633;
+    background-color: rgb(233, 145, 62, 0.2);
     padding: 30px;
     width: 600px;
     border-radius: 10px;
@@ -162,7 +162,7 @@
           }
         }
         .selectCountry {
-          background-color: #75b2e6;
+          background-color: #f38d08;
           transition: background-color ease 0.25s;
           color: white;
         }

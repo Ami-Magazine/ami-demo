@@ -35,7 +35,7 @@ export default function Login() {
 
   return (
     <div className={Styles.loginContainer}>
-      <NextHead title="Chayenu | Login" />
+      <NextHead title="Ami | Login" />
       <h1 className={Styles.loginText}>Login into Your Account</h1>
       <Formik
         initialValues={initialValues}

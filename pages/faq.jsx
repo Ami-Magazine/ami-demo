@@ -35,7 +35,7 @@ export default function FAQ({ faqSections }) {
   return (
     <>
       <NextHead
-        title="Knowledge Base | Chayenu - Daily Torah Study"
+        title="Knowledge Base | Ami - Daily Torah Study"
         description="Get answers to frequently asked questions about our products and services. Find solutions to common queries and make informed decisions. Explore now!"
         extraNode={structuredData}
       />

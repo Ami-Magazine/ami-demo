@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main>
       <NextHead
-        title="Daily Torah Study | Chayenu"
+        title="Daily Torah Study | Ami"
         description="Chayenu is a weekly subscription-based publication focused on the daily study cycles of Chumash, Rambam, Tanya and more, and features fresh content from a ..."
       />
 

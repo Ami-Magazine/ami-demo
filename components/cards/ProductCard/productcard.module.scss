@@ -65,11 +65,11 @@
   }
   &:hover {
     border: 3px solid #00365234;
-    background-color: #d5e8f7;
+    background-color: rgba(244, 130, 23, 0.4);
   }
 }
 
 .selectedCard {
-  border: 3px solid var(--website-color) !important;
+  border: 3px solid rgba(244, 130, 23, 0.4) !important;
   border-radius: 10px;
 }
